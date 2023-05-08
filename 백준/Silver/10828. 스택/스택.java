@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Stack;
 
-// 백준 10828 균형잡힌 세상
+// 백준 10828 스택
 // https://www.acmicpc.net/problem/10828
  
 public class Main {
