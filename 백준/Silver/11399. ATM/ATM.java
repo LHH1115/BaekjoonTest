@@ -1,8 +1,8 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-// 백준 10828 균형잡힌 세상
-// https://www.acmicpc.net/problem/10828
+// 백준 11399 ATM
+// https://www.acmicpc.net/problem/11399
  
 public class Main {
 	public static void main(String[] args) {
