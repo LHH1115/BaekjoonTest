@@ -12,27 +12,19 @@ public class Main { public static void main(String[] args) {
     int N = sc.nextInt();
 
     sc.close();
-    
-    if(N == 1){
-        System.out.println(1);
-        return;
-    }
-    
+
     Deque<Integer> d = new LinkedList<>();
 
     for(int i=1; i<=N; i++){
         d.add(i);
     }
 
-    int temp = 0;
-
     while(d.size() > 1){
         d.pollFirst();
-        temp = d.pollFirst();
-        d.addLast(temp);
+        d.addLast(d.pollFirst());
     }
 
-    System.out.println(temp);
+    System.out.println(d.poll());
     
     }
 }
